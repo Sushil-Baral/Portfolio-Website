@@ -346,52 +346,26 @@ document.addEventListener("DOMContentLoaded", function () {
         future: {
 
             title:
-                "Your Next Engineering Project",
+                "CFD Analysis of an Airfoil",
 
             description:
-                "This project card is reserved for another engineering project that you want to showcase.",
+                "This project card is reserved for another engineering project.",
 
             details: `
 
-                <h3>Suggested Projects</h3>
+                <h3>Suggestion on the Projects</h3>
 
                 <p>
-                    You can replace this placeholder with:
+                    You can suggest through contact section
                 </p>
 
                 <br>
 
-                <ul>
+                <h3>Software</h3>
 
-                    <li>
-                        Aircraft-related project
-                    </li>
-
-                    <li>
-                        CAD design project
-                    </li>
-
-                    <li>
-                        MATLAB project
-                    </li>
-
-                    <li>
-                        ANSYS / FEA project
-                    </li>
-
-                    <li>
-                        Turbomachinery project
-                    </li>
-
-                    <li>
-                        Research project
-                    </li>
-
-                    <li>
-                        Industrial internship work
-                    </li>
-
-                </ul>
+                <p>
+                    Pending...
+                </p>
 
             `
 
