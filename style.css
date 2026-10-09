@@ -702,17 +702,17 @@ h2 {
 
 /* FEA image */
 .project-image-fea {
-    background-image: url("Images/fea.jpg");
+    background-image: url("project/image/fea.jpg");
 }
 
 /* MATLAB image */
 .project-image-matlab {
-    background-image: url("Images/matlab.jpg");
+    background-image: url("project/image/matlab.jpg");
 }
 
 /* CFD image */
 .project-image-cfd {
-    background-image: url("Images/cfd.jpg");
+    background-image: url("project/image/cfd.jpg");
 }
 
 /*
