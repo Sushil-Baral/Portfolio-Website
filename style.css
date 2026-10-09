@@ -668,6 +668,55 @@ h2 {
 
 
 .project-image {
+    height: 220px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+    background-color: #dfe2e5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: "DM Mono", monospace;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+}
+
+/* Dark overlay keeps the project title readable */
+.project-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.30);
+    z-index: 0;
+}
+
+.project-image span {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+/* FEA image */
+.project-image-fea {
+    background-image: url("Images/fea.jpg");
+}
+
+/* MATLAB image */
+.project-image-matlab {
+    background-image: url("Images/matlab.jpg");
+}
+
+/* CFD image */
+.project-image-cfd {
+    background-image: url("Images/cfd.jpg");
+}
+
+/*
+.project-image {
 
     height: 220px;
 
@@ -684,7 +733,7 @@ h2 {
     letter-spacing: 0.08em;
 
 }
-
+*/
 
 .project-body {
 
